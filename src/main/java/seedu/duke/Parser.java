@@ -42,8 +42,8 @@ public class Parser {
     }
 
     public Command prepareAdd() {
-        // checks empty command description error
-        // checks input format error
+        // checks empty arguments error
+        // checks input format error -dayOfweek/starttime/endtime/mode
         try {
             String[] eventDescription = splitArguments();
             String name = eventDescription[NAME_INDEX];
